@@ -373,7 +373,7 @@ header.sticked {
 @media (max-width: 767px) {
   header.sticked {
     position: absolute;
-    background-color: #00486c;
+    background-color: #6c0067;
   }
 }
 
