@@ -685,7 +685,7 @@ nav.navigation-main .navigation-block ul li > ul li a {
     transition: all 0.3s;
   }
   nav.navigation-main .navigation-block.open {
-    background-color: #00486c;
+    background-color: #6c0055;
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
@@ -1005,14 +1005,14 @@ nav.navigation-main .navigation-block ul li > ul li a {
 }
 
 .btn.btn-clean {
-  background-color: transparent;
+  background-color: #50064e;
   border-color: rgba(255, 255, 255, 0.2);
   color: white !important;
 }
 
 .btn.btn-clean:hover {
-  background-color: white;
-  border-color: white;
+  background-color:#9d0f85;
+  border-color: rgb(68, 66, 66);
   color: black !important;
 }
 
@@ -3345,7 +3345,7 @@ section {
   height: 50%;
   left: 0;
   bottom: 0;
-  background-color: #00486c;
+  background-color:#6c0046;
 }
 
 .rooms.rooms-category {

@@ -30,8 +30,11 @@
     <link rel="stylesheet" media="all" href="css/theme.css" />
 
     <!--Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500&amp;subset=latin-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&amp;subset=latin-ext" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -77,13 +80,13 @@
                             <i class="icon icon-star"></i> 
                             Special offers
                         </a>
-                        <a class="box" href="reservation-1.html">
+                        <a class="box" href="#reservation-1.html">
                             <i class="icon icon-tag"></i> 
                             Reservations
                         </a>
                         <a class="box" href="#">
                             <i class="icon icon-phone-handset"></i> 
-                            (01) 252-3333
+                            +91 80915 61011
                         </a>
                     </div>
                 </nav>
@@ -96,8 +99,8 @@
 
                     <div class="logo animated fadeIn">
                         <a href="index.html">
-                            <img class="logo-desktop" src="assets/images/logo.png" alt="Alternate Text" />
-                            <img class="logo-mobile" src="assets/images/logo-mobile.png" alt="Alternate Text" />
+                            <img class="logo-desktop" src="assets/images/jujurana-logo.png" alt="Alternate Text" />
+                            <img class="logo-mobile" src="assets/images/white-mobile-logo1.png" alt="Alternate Text" />
                         </a>
                     </div>
 
@@ -113,30 +116,30 @@
 
                         <ul class="navigation-left">
                             <li>
-                                <a href="index.html">Home <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                                <ul>
+                                <a href="index.html">Home </a>
+                                <!-- <ul>
                                     <li><a href="index.html">Home - Booking intro</a></li>
                                     <li><a href="index-2.html">Home - Booking box</a></li>
                                     <li><a href="index-3.html">Home - Rooms intro</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
                             <li>
-                                <a href="#">Pages <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                                <ul>
-                                    <li><a href="about.html">About us</a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <!-- <ul>
+                                    <a href="#">Pages <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
                                     <li><a href="rooms-category.html">Rooms category</a></li>
                                     <li><a href="room-overview.html">Room overview</a></li>
                                     <li><a href="404.html">404 Not found</a></li>
                                     <li><a href="shortcodes.html">Shortcodes</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
                             <li>
-                                <a href="#">Booking <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                                <ul>
+                                <a href="rooms-category.html">Rooms</a>
+                                <!-- <ul>
                                     <li><a href="reservation-1.html">Booking step 1</a></li>
                                     <li><a href="reservation-2.html">Booking step 2</a></li>
                                     <li><a href="reservation-3.html">Booking step 3</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
                         </ul>
 
@@ -144,17 +147,17 @@
 
                         <ul class="navigation-right">
                             <li>
-                                <a href="facility.html">Facilities</a>
+                                <a href="facility.html">Eat & Drink</a>
                             </li>
                             <li>
-                                <a href="#">Blog <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
-                                <ul>
+                                <a href="event.html">Event</a>
+                                <!-- <ul>
                                     <li><a href="blog-category.html">Blog category</a></li>
                                     <li><a href="blog-item.html">Blog item</a></li>
-                                </ul>
+                                </ul> -->
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="#contact.html">Contact</a>
                             </li>
                         </ul>
 
@@ -180,139 +183,56 @@
 
             <!-- ===  Contact === -->
 
-            <div class="contact">
-
-                <div class="container">
-
-                    <!-- === Google map === -->
-
-                    <div class="map" id="map"></div>
-
-                    <div class="row">
-
-                        <div class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1">
-
-                            <!-- === Contact block === -->
-
-                            <div class="contact-block">
-
-                                <!-- === Contact banner === -->
-
-                                <div class="banner">
-                                    <div class="row">
-                                        <div class="col-md-offset-1 col-md-10 text-center">
-                                            <h2 class="title">Send an email</h2>
-                                            <p>
-                                                Please use this form if you have any questions about our products <br /> and we'll get back with you very soon.
-                                            </p>
-
-                                            <div class="contact-form-wrapper">
-
-                                                <a class="btn btn-clean open-form" data-text-open="Contact us via form" data-text-close="Close form">Contact us via form</a>
-
-                                                <div class="contact-form clearfix">
-                                                    <form action="#" method="post">
-                                                        <div class="row">
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <input type="text" value="" class="form-control" placeholder="Your name" required="required">
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-md-6">
-                                                                <div class="form-group">
-                                                                    <input type="email" value="" class="form-control" placeholder="Your email" required="required">
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-md-12">
-
-                                                                <div class="form-group">
-                                                                    <input type="text" value="" class="form-control" placeholder="Subject" required="required">
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-md-12">
-                                                                <div class="form-group">
-                                                                    <textarea class="form-control" placeholder="Your message" rows="10"></textarea>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-md-12 text-center">
-                                                                <input type="submit" class="btn btn-clean" value="Send message" />
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- === Contact info === -->
-
-                                <div class="contact-info">
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <figure class="text-center">
-                                                <span class="icon icon-map-marker"></span>
-                                                <figcaption>
-                                                    <strong>Where are we?</strong>
-                                                    <span>200 12th Ave, New York, <br />NY 10001, USA</span>
-                                                </figcaption>
-                                            </figure>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <figure class="text-center">
-                                                <span class="icon icon-phone"></span>
-                                                <figcaption>
-                                                    <strong>Call us</strong>
-                                                    <span>
-                                                        <strong>T</strong> +1 222 333 4444 <br />
-                                                        <strong>F</strong> +1 222 333 5555
-                                                    </span>
-                                                </figcaption>
-                                            </figure>
-                                        </div>
-                                        <div class="col-sm-4">
-                                            <figure class="text-center">
-                                                <span class="icon icon-clock"></span>
-                                                <figcaption>
-                                                    <strong>Working hours</strong>
-                                                    <span>
-                                                        <strong>Mon</strong> - Sat: 10 am - 6 pm <br />
-                                                        <strong>Sun</strong> 12pm - 2 pm
-                                                    </span>
-                                                </figcaption>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div> <!--/contact-block-->
-                        </div><!--col-sm-8-->
-                    </div> <!--/row-->
-                </div> <!--/container-->
-            </div> <!--/contact-->
+            
         </section>
 
         <!-- ========================  Subscribe ======================== -->
-
-        <section class="subscribe">
-            <div class="container">
-                <div class="box">
-                    <h2 class="title">Subscribe</h2>
-                    <div class="text">
-                        <p>& receive free premium gifts</p>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" value="" placeholder="Subscribe" class="form-control" />
-                        <button class="btn btn-sm btn-main">Go</button>
-                    </div>
-                </div>
+        <class class="row mt-200">
+            <div class="col-md-6  col-sm-12 p-2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13504.980361667775!2d76.37302361423343!3d32.197625883482246!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b512203261be9%3A0x4b51a5da8e0a24ae!2sJujurana%20Resort%20%26%20Spa!5e0!3m2!1sen!2sin!4v1700222657936!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </section> 
+            <div class="col-md-6  col-sm-12">
+                <form action="#" method="post">
+                    
+                        
+                            
+                    <div class="form-group">
+                        <input type="text" value="" class="form-control" placeholder="Your name" required="required">
+                    </div>
+                            
+                        
+                            
+                    <div class="form-group">
+                        <input type="email" value="" class="form-control" placeholder="Your email" required="required">
+                    </div>
+                        
+
+                        
+
+                            
+                    <div class="form-group">
+                        <input type="text" value="" class="form-control" placeholder="Subject" required="required">
+                    </div>
+                           
+                       
+                            
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Your message" rows="10"></textarea>
+                    </div>
+                            
+
+                        
+                    <div class="text-center">
+                        <input type="submit" class="btn btn-clean" value="Send message" />
+                    </div>
+                        
+                    
+                </form>
+                
+            </div>
+        </class>
+
+        
 
         <!-- ================== Footer  ================== -->
 
@@ -322,18 +242,38 @@
                 <!--footer links-->
                 <div class="footer-links">
                     <div class="row">
-                        <div class="col-sm-6 footer-left">
-                            <a href="#">Sitemap</a> &nbsp; | &nbsp; <a href="#">Privacy policy</a> | &nbsp; <a href="#">Guest book</a>
+                        <div class="col-sm-12 text-center">
+                            <a href="#">FOR QUESTIONS OR INQUIRIES : +91 80915 61011 / +91 80916 61011 </a> &nbsp; | &nbsp; <a href="#">contactus@jujuranaresort.com </a> | &nbsp; <a href="#">  Village Theru, Near Rakkar Helipad, Dharamshala Himachal Pradesh 176057</a>
                         </div>
-                        <div class="col-sm-6 footer-right">
+                        <!-- <div class="col-sm-6 footer-right">
                             <a href="#">Gallery</a> &nbsp; | &nbsp; <a href="#">Reservations</a> | &nbsp; <a href="#">Help center</a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <a href="#">Privacy Policy  </a> &nbsp; | &nbsp; <a href="#">Reservation Policy</a> | &nbsp; <a href="#"> Cancellation Policy</a>
                         </div>
+                        <!-- <div class="col-sm-6 footer-right">
+                            <a href="#">Gallery</a> &nbsp; | &nbsp; <a href="#">Reservations</a> | &nbsp; <a href="#">Help center</a>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <a href="#">© 2023 by Jujurana Resorts</a> 
+                        </div>
+                        <!-- <div class="col-sm-6 footer-right">
+                            <a href="#">Gallery</a> &nbsp; | &nbsp; <a href="#">Reservations</a> | &nbsp; <a href="#">Help center</a>
+                        </div> -->
                     </div>
                 </div>
 
                 <!--footer social-->
 
-                <div class="footer-social">
+                <!-- <div class="footer-social">
                     <div class="row">
                         <div class="col-sm-12 text-center hidden">
                             <a href="" class="footer-logo"><img src="assets/images/logo.png" alt="Alternate Text" /></a>
@@ -348,13 +288,13 @@
                             </ul>
                         </div>
                         <div class="col-sm-12 copyright">
-                            <small>Copyright &copy; 2017 &nbsp; | &nbsp; <a href="https://themeforest.net/item/colina-hotel-website-template/20977257">Buy Colina Template</a></small>
+                            <small>Copyright &copy; 2023 &nbsp; | &nbsp; </small>
                         </div>
                         <div class="col-sm-12 text-center">
-                            <img src="assets/images/logo-footer.png" alt="" />
+                            <img src="assets/images/footer-jujurana-logo.png" alt="" />
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </footer>
 
