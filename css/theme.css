@@ -2513,7 +2513,8 @@ section {
 }
 
 .quotes .quote {
-  text-align: center;
+  text-align: justify;
+  padding: 10px;
 }
 
 .quotes .quote .image {
