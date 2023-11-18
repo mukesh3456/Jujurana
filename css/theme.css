@@ -66,6 +66,14 @@
     1. Default body styles
     ----------------------------------
 */
+.whatsapp-icon {
+  position: fixed;
+  left: 25px;
+  bottom: 40px;
+  width: 60px;
+  height: 60px;
+  z-index: 99999;
+}
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
@@ -1333,7 +1341,7 @@ section {
 */
 .page {
   padding-top: 0;
-  padding-bottom: 0;
+  padding-bottom: 163px;
 }
 
 .page .page-header {
@@ -3232,7 +3240,7 @@ section {
   position: absolute;
   content: attr(data-text);
   left: 0;
-  top: 0;
+  top: -10px;
 }
 
 .booking .booking-wrapper .date:hover .date-value,
