@@ -367,14 +367,14 @@ header.sticked {
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
     border-radius: 100%;
-    background-color: #f8f8f8;
+    background-color:#973571;
     width: 120px;
     height: 120px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px rgba(36, 35, 35, 0.6);
   }
   header.sticked nav.navigation-main .logo img {
     height: auto;
-    width: 100%;
+    width: 95%;
   }
 }
 
@@ -3385,10 +3385,11 @@ section {
   }
   .rooms.rooms-inner .section-header {
     padding-bottom: 20px;
+    padding-top: 35px;
     color: white;
   }
   .rooms.rooms-inner .section-header .title, .rooms.rooms-inner .section-header .title span {
-    color: white;
+    color: #ceb071;
     font-size: 22px;
   }
 }
