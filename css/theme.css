@@ -1341,7 +1341,7 @@ section {
 */
 .page {
   padding-top: 0;
-  padding-bottom: 163px;
+  padding-bottom: 0px;
 }
 
 .page .page-header {
@@ -1576,7 +1576,7 @@ section {
 }
 
 .image-blocks .blocks .item .book .btn {
-  margin: 0;
+  margin: 2px;
 }
 
 .image-blocks .blocks .item .book > div {
