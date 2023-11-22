@@ -74,6 +74,19 @@
   height: 60px;
   z-index: 99999;
 }
+.contact-margin{
+  margin-top: 171px;
+}
+@media (max-width: 767px) {
+   
+    .contact-margin{
+      margin-top: 10px;
+    }
+  }
+.niran{
+  width: 100%;
+
+}
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
@@ -383,6 +396,7 @@ header.sticked {
     position: absolute;
     background-color: #6c0067;
   }
+  
 }
 
 @media (max-width: 991px) {
