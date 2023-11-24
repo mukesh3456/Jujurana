@@ -3135,7 +3135,7 @@ section {
 }
 
 .booking .booking-wrapper .guests .guest-list li.header, .booking .booking-wrapper .guests .guest-list li.footer {
-  background-color: #00486c;
+  background-color: #5e0360;
   color: white;
   padding: 20px 15px;
 }
@@ -3143,7 +3143,7 @@ section {
 .booking .booking-wrapper .guests .guest-list li.header .qty-apply, .booking .booking-wrapper .guests .guest-list li.footer .qty-apply {
   font-size: 70%;
   padding: 4px;
-  border: 1px solid #006a9f;
+  border: 1px solid #cd8ec2;
   cursor: pointer;
   float: right;
   -moz-border-radius: 100%;
