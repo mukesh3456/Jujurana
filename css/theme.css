@@ -2527,7 +2527,7 @@ section {
 }
 
 .quotes .quote {
-  text-align: justify;
+  text-align: left;
   padding: 10px;
 }
 
