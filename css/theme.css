@@ -3570,6 +3570,17 @@ section {
   }
 }
 
+@media (min-width: 768px) {
+  .room .room-block1 {
+    padding-top: 206px;
+  }
+  .room .room-block figure {
+    margin-bottom: 0;
+  }
+  .room .room-block figure .hotelicon {
+    font-size: 50px;
+  }
+}
 .room .room-overview .title {
   position: relative;
   text-align: center;
