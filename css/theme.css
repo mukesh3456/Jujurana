@@ -176,7 +176,7 @@ body *:focus {
   height: 100%;
   overflow: hidden;
   z-index: 999999;
-  background-color: white;
+  background-color: rgb(245, 177, 240)
 }
 
 .page-loader:before {
@@ -202,7 +202,7 @@ body *:focus {
   margin-top: -20px;
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear;
-  color: #00486c;
+  color: #6c0068;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
